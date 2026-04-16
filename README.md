@@ -1,17 +1,15 @@
 # TPP Bestellstrecke - Demo
 
-## Overview
-This project aims to implement an ordering system with TPP (Treating Physician's Panel) integration, streamlining order management and enhancing overall efficiency.
+Monorepo project with nuxt frontend and nestjs backend.
 
-## Features
-- TPP integration
-- Order management optimization
+## Structure
 
-## Roadmap
-The project is currently in its initial stages, with a focus on TPP integration and order management. Future developments will include further enhancements to the ordering system.
+- `frontend/` — nuxt app
+- `backend/` — nestjs API
 
-## Contributing
-Contributions are welcome! Please see our contribution guidelines for more information.
+## Getting Started
 
-## License
-This project is licensed under [insert license].
+```bash
+pnpm install
+pnpm run dev
+```
